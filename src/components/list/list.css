@@ -1,37 +1,54 @@
  .container {
-     display: flex;
-     justify-content: center;
-     align-items: center;
-     width: 400px;
-     margin: 0 auto;
-     border: 2px solid grey;
-     background: rgb(255, 98, 0);
-     background: linear-gradient(95deg, rgba(255, 98, 0, 1) 3%, rgba(255, 244, 0, 1) 97%, rgba(0, 255, 29, 1) 100%);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 400px;
+   min-height: 500px;
+   margin: 0 auto;
+   border: 2px solid grey;
+   background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+   margin-top: 100px;
+   border-radius: 20px;
+
 
  }
 
  body {
-     font-family: "Signika", sans-serif;
+   font-family: "Signika", sans-serif;
 
  }
 
  li {
-     width: 300px;
-     margin: 10px;
-     height: 50px;
-     background-color: aqua;
-     color: white;
+   width: 300px;
+   margin: 10px;
+   min-height: 50px;
+   /* height: 50px; */
+   background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+   color: white;
+   border-radius: 10px;
  }
 
+
  .new-list {
-     width: 200px;
-     height: 50px;
-     border-radius: 50px;
-     background: rgb(255, 98, 0);
-     background: linear-gradient(95deg, rgba(255, 98, 0, 1) 13%, rgba(255, 244, 0, 1) 56%, rgba(0, 255, 29, 1) 100%);
-     margin-bottom: 10px;
-     color: white;
-     font-family: "Signika", sans-serif;
-     font-size: 20px;
-     cursor: pointer;
+   background-image: linear-gradient(to right, #004FF9 0%, #FFF94C 51%, #004FF9 100%);
+   width: 200px;
+   height: 50px;
+   margin-bottom: 10px;
+   font-family: "Signika", sans-serif;
+   cursor: pointer;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+
+ }
+
+ .new-list:hover {
+   background-position: right center;
+   /* change the direction of the change here */
+   color: #fff;
+   text-decoration: none;
  }

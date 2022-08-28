@@ -5,17 +5,7 @@ const ShowList = () =>{
         <div className="container">
             <div className="wrapper">
                 <ul className="carts">
-                    <li >buy one bread and some butter </li>
-                    <input type="checkbox" />
-                    <li >buy one bread and some butter </li>
-                    <input type="checkbox" />
-                    <li >buy one bread and some butter </li>
-                    <input type="checkbox" />
-                    <li >buy one bread and some butter </li>
-                    <input type="checkbox" />
-                    <li >buy one bread and some butter </li>
-                    <input type="checkbox" />
-
+                
                 </ul>
                 <button type = 'button' onClick ={AddList} className="new-list">Add new List</button>
             </div>

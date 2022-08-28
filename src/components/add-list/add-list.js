@@ -1,9 +1,8 @@
-// import 'add-list.css'
-import Form from '../form/form'
-const AddList = () =>{
-    
+    const AddList = () => {
+        const container = document.querySelector('.container')
+        container.style.display = 'none'
+        const block = document.querySelector('.block')
+        block.style.display = 'flex'
+    }
 
-    
-}
-
-export default AddList
+    export default AddList
