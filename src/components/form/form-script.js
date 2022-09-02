@@ -4,26 +4,16 @@
     const container = document.querySelector('.container')
     const carts = document.querySelector('.carts')
     const liList = document.createElement('li')
-    const liCheckbox = document.createElement('input')
+
+    liList.classList.add('li__List')
 
     container.style.display = 'flex'
     block.style.display = 'none'
 
-    liList.innerHTML = listInput
-    liCheckbox.type = 'checkbox'
-    carts.append(liList, liCheckbox)
+    liList.append(listInput)
+    carts.append(liList)
 
 
-
-
-
-    //  fetch('http://localhost:3000/posts', {
-    //     method: "POST",
-    //     headers: {
-    //        "Content-type": "application/json"
-    //     },
-    //     body: listInput
-    //  })
 
  }
 
