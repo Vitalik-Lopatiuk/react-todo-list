@@ -9,21 +9,19 @@
     container.style.display = 'flex'
     block.style.display = 'none'
 
-    liList.innerHTML = listInput
+      liList.innerHTML = listInput
     liCheckbox.type = 'checkbox'
-    carts.append(liList, liCheckbox)
+    const dump = document.createElement('img')
+    dump.src = './dump.jpeg'
+    carts.append(liList, liCheckbox , dump)
 
-
-
-
-
-    //  fetch('http://localhost:3000/posts', {
-    //     method: "POST",
-    //     headers: {
-    //        "Content-type": "application/json"
-    //     },
-    //     body: listInput
-    //  })
+    fetch('http://localhost:3000/posts', {
+       method: "POST",
+       headers: {
+         'Content-type': 'text/plain'
+       },
+       body: listInput
+    })
 
  }
 

@@ -17,7 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "api": "json-server --watch db.json"
+    "api": "json-server --watch db.json",
+    "&& json-server": " data.json"
   },
   "eslintConfig": {
     "extends": [

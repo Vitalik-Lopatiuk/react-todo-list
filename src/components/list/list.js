@@ -5,6 +5,7 @@ const ShowList = () =>{
         <div className="container">
             <div className="wrapper">
                 <ul className="carts">
+                    <img src="./dump.jpeg" />
                 
                 </ul>
                 <button type = 'button' onClick ={AddList} className="new-list">Add new List</button>
